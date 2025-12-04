@@ -1,0 +1,64 @@
+@font-face {
+    font-family: bebas_neue;
+    src: url("../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+@font-face {
+    font-family: roboto_flex;
+    src: url("../assets/fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf");
+}
+body {
+    font-family: roboto_flex;
+}
+.color-gris {
+    background-color: rgba(35, 56, 68);
+}
+
+a {
+    text-decoration: none;
+}
+
+.bebas-neue {
+    font-family: bebas_neue;
+}
+
+header a:hover {
+    color: #FFD503 !important;
+    font-style: italic;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1) brightness(2);
+}
+.navbar-toggler {
+  border-color: #FFFFFF;
+
+}
+
+#land-page {
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-image: url("../assets/img/landing_page_foto.jpg");
+}
+
+h1 {
+    font-weight: 900;
+}
+
+#subdiv {
+    background-color: rgba(0, 0, 0, 0.75); /* negro con 50% de transparencia */
+}
+
+.btn-warning:hover {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    color: #FFD503 !important;
+}
+
+.btn-light:hover {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    color: white !important;
+}
+
+#title {
+    font-size: 5rem;
+}
