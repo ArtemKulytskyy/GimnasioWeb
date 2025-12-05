@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="GimnasioWeb">
         <Routes>
           <Route path="/" element={<LandingPage />}/>
           <Route path="/header" element={<Header />}/>
