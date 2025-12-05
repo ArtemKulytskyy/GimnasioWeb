@@ -3,7 +3,7 @@ import NavCentral from './NavCentral';
 import NavDerecho from './NavDerecho';
 
 function Header() {
-    let user = "admin";
+    let user = "";
     return(
         <header className='color-gris fs-4 row bebas-neue'>
             <div className='col-md-3 d-flex justify-content-center'>
