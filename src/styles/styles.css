@@ -143,3 +143,18 @@ footer a:hover {
     min-height: 40vh;
   }
 }
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--bs-secondary-color);
+  font-size: .95rem;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--bs-border-color);
+}
