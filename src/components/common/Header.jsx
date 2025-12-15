@@ -5,7 +5,7 @@ import NavDerecho from './NavDerecho';
 function Header() {
     let user = "";
     return(
-        <header className='color-gris fs-4 row bebas-neue'>
+        <header className='bgcolor-gris fs-4 row bebas-neue'>
             <div className='col-md-3 d-flex justify-content-center'>
                 <img src={logo} alt="logo" width={150}/>
             </div>

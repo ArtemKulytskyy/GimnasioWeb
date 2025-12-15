@@ -15,20 +15,20 @@ function NavCentral({tipo}) {
         text2 = "clases";
     }
     return(
-        <nav class="navbar navbar-expand-md col-md-6">
-            <div class="container-fluid d-flex justify-content-center">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-md col-md-6">
+            <div className="container-fluid d-flex justify-content-center">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav d-flex justify-content-around w-100 text-center">
-                        <li class="nav-item">
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul className="navbar-nav d-flex justify-content-around w-100 text-center">
+                        <li className="nav-item">
                             <Link to={text1} className='text-white nav-link'>{text1}</Link >
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link to={text2} className='text-white nav-link'>{text2}</Link >
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link to={text3} className='text-white nav-link'>{text3}</Link >
                         </li>
                     </ul>
