@@ -3,6 +3,8 @@ import clase1 from '../assets/img/claseHit.png';
 import clase2 from '../assets/img/claseSpinning.png';
 import clase3 from '../assets/img/claseYoga.png';
 import {Link} from 'react-router-dom';
+import BtnIniciarSesion from './common/BtnIniciarSesion';
+import BtnRegistrarme from './common/BtnRegistrarme';
 
 function Clases() {
     return(
@@ -96,8 +98,8 @@ function Clases() {
                     </button>
                 </div>
                 <div className="row d-flex flex-column flex-md-row justify-content-evenly align-items-center mt-4 gap-3 w-100 mb-4">
-                    <Link href="/signup" className="btn btn-warning col-10 col-md-4 border border-dark p-3">REGISTRARME</Link>
-                    <Link href="/login" className="btn btn-light col-10 col-md-4 border border-dark p-3">INICIAR SESIÓN</Link>
+                    <BtnRegistrarme extraClass="border-dark" />
+                    <BtnIniciarSesion extraClass='border-dark'/>
                 </div>
             </div>
         </MainLayout>

@@ -1,3 +1,6 @@
+
+import BtnIniciarSesion from './common/BtnIniciarSesion';
+import BtnRegistrarme from './common/BtnRegistrarme';
 import MainLayout from './layouts/MainLayout';
 import {Link} from 'react-router-dom';
 
@@ -10,8 +13,8 @@ function LandingPage() {
           <h1 className="bebas-neue fs-2 fst-italic">Tu gimnasio. Tu ritmo. Tu espacio.</h1>
 
           <div className="d-flex flex-column flex-md-row justify-content-evenly align-items-center mt-4 gap-3 w-100">
-            <Link to="/signup" className="btn btn-warning col-10 col-md-4 p-3">REGISTRARME</Link>
-            <Link to="/login" className="btn btn-light col-10 col-md-4 p-3">INICIAR SESIÓN</Link>
+            <BtnRegistrarme />
+            <BtnIniciarSesion />
           </div>
 
         </div>

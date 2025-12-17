@@ -14,7 +14,7 @@ function Footer() {
                         <div class="bebas-neue fs-2 fw-bold mb-4 fst-italic">Enlaces Rápidos</div>
                         <div class="row">
                             <div class="col-6">
-                                <Link to="#" class="text-white fs-5 mb-1">Iniciar Sesión</Link>
+                                <Link to="/login" class="text-white fs-5 mb-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Iniciar Sesión</Link>
                                 <br/>
                                 <Link to="/locales" class="text-white fs-5 mb-1">Nuestros Locales</Link>
                             </div>

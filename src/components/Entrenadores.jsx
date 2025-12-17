@@ -1,6 +1,8 @@
 import MainLayout from "./layouts/MainLayout"
 import entrenadoresImg from "../assets/img/entrenadores.png";
 import {Link} from 'react-router-dom';
+import BtnIniciarSesion from "./common/BtnIniciarSesion";
+import BtnRegistrarme from "./common/BtnRegistrarme";
 
 function Entrenadores() {
   return (
@@ -53,8 +55,8 @@ function Entrenadores() {
               </li>
             </ul>
             <div className="row d-flex flex-column flex-md-row justify-content-evenly align-items-center mt-4 gap-3 w-100 mb-4">
-              <Link to="/signup" className="btn btn-warning col-10 col-md-4 p-3">REGISTRARME</Link>
-              <Link to="/login" className="btn btn-light col-10 col-md-4 p-3">INICIAR SESIÓN</Link>
+              <BtnRegistrarme />
+              <BtnIniciarSesion />
             </div>
           </div>
 

@@ -3,6 +3,8 @@ import local1 from '../assets/img/gym1.png';
 import local2 from '../assets/img/gym2.png';
 import local3 from '../assets/img/gym3.png';
 import {Link} from 'react-router-dom';
+import BtnIniciarSesion from "./common/BtnIniciarSesion";
+import BtnRegistrarme from "./common/BtnRegistrarme";
 
 function Locales() {
     return (
@@ -46,8 +48,8 @@ function Locales() {
                     </div>
                 </div>
                 <div className="row d-flex flex-column flex-md-row justify-content-evenly align-items-center mt-4 gap-3 w-100 mb-4">
-                    <Link href="/signup" className="btn btn-warning col-10 col-md-4 border border-dark p-3">REGISTRARME</Link>
-                    <Link href="/login" className="btn btn-light col-10 col-md-4 border border-dark p-3">INICIAR SESIÓN</Link>
+                    <BtnRegistrarme extraClass="border-dark" />
+                    <BtnIniciarSesion extraClass="border-dark"/>
                 </div>
             </div>
         </MainLayout>

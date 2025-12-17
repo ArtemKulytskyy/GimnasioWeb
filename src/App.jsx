@@ -6,7 +6,7 @@ import Locales from './components/Locales'
 import Clases from './components/Clases'
 import ScrollToTop from './components/common/ScrollToTop'
 import Entrenadores from './components/Entrenadores'
-import IniciarSesionForm from './components/IniciarSesionForm'
+import IniciarSesionModal from './components/IniciarSesionModal'
 //import './App.css'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           <Route path="/locales" element={<Locales />}/>
           <Route path="/clases" element={<Clases />}/>
           <Route path="/entrenadores" element={<Entrenadores />}/>
-          <Route path="/login" element={<IniciarSesionForm />}/>
+          <Route path="/login" element={<IniciarSesionModal />}/>
         </Routes>
       </BrowserRouter>
     </>
