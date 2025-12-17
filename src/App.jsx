@@ -7,6 +7,7 @@ import Clases from './components/Clases'
 import ScrollToTop from './components/common/ScrollToTop'
 import Entrenadores from './components/Entrenadores'
 import IniciarSesionModal from './components/IniciarSesionModal'
+import Registro from './components/Registro'
 //import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/clases" element={<Clases />}/>
           <Route path="/entrenadores" element={<Entrenadores />}/>
           <Route path="/login" element={<IniciarSesionModal />}/>
+          <Route path="/signup" element={<Registro />} />
         </Routes>
       </BrowserRouter>
     </>

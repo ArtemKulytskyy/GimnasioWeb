@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+
 import BtnIniciarSesion from './common/BtnIniciarSesion';
 import BtnRegistrarme from './common/BtnRegistrarme';
 
