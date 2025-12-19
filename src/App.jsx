@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Header from './components/common/Header'
 import LandingPage from './components/LandingPage'
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {BrowserRouter, Routes, Route, HashRouter} from "react-router-dom"
 import Locales from './components/Locales'
 import Clases from './components/Clases'
 import ScrollToTop from './components/common/ScrollToTop'
@@ -15,8 +15,8 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="GimnasioWeb">
-      <ScrollToTop />
+      <HashRouter basename="GimnasioWeb">
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<LandingPage />}/>
           <Route path="/locales" element={<Locales />}/>
@@ -25,7 +25,7 @@ function App() {
           <Route path="/login" element={<IniciarSesionModal />}/>
           <Route path="/signup" element={<Registro />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }

@@ -15,7 +15,7 @@ function BtnRegistrarme({ extraClass = "" }) {
 
   return (
     <Link
-      to="/signup"
+      to="#/signup"
       className={`btn btn-warning col-10 col-md-4 p-3 ${extraClass}`}
       onClick={handleClick}
     >
