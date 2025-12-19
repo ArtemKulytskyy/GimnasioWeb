@@ -33,7 +33,7 @@ function Footer() {
                     <div class="col-md-2 text-md-start text-center">
                         
                         <div className='d-flex justify-content-center'>
-                            <img src={logo} alt="logo" width={150}/>
+                            <Link to="/"><img src={logo} alt="logo" width={150}/></Link>
                         </div>
                         <div class="d-flex justify-content-evenly">
                             <Link to="https://www.instagram.com/fitnessparkspain" class="" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="logo" width={42} height={42}/></Link>

@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <HashRouter basename="GimnasioWeb">
+      <HashRouter>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<LandingPage />}/>
